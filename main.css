@@ -1,0 +1,239 @@
+.NavBar {
+    background-color: #95d5b2;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+                rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+                rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+                rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+
+    padding: 0 60px;
+    height: 50px;
+}
+.HeaderFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px;
+    background-color: rgba(173, 216, 230, 0.8);
+
+}
+
+
+.Heading {
+
+    font-size: 35px;
+    text-align: start;
+    padding-left: 20px;
+
+    
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.navItem {
+    width: 50px;
+    padding-left: 40px;
+    background-color: none;
+    align-items: flex-start;
+}
+.navLink {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: #211A1D;
+    justify-content: center;
+}
+.navItem :hover {
+    background: rgba(76, 175, 80, 0.3)
+}
+
+.PageName {
+
+    padding-right: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    float: right;
+
+}
+
+body {
+    background-image: url(wallpapersden.com_yosemite-national-park-8k-landscape_2880x1800.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.PageTitle {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    padding-top: 0px;
+    text-align: center;
+    text-shadow: 2px 2px #9eefe5;
+}
+
+
+.sec1 {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    width: absolute;
+    height: 500px;
+    color: blanchedalmond;
+    
+    border-radius: 10px;
+    background-color: rgba(173, 216, 230, 0.4);
+
+
+}
+.Inside_Section_Right {
+    padding-left: 10px;
+    width: 45%;
+    height: 500px;
+    color: blanchedalmond;
+    border-radius: 10px;
+    float: right;
+}
+.Inside_Section_Left {
+    padding-right: 10px;
+    width:45%;
+    height: 500px;
+    color: blanchedalmond;
+    border-radius: 10px;
+    float: left; 
+}
+
+.mainpic {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.sec1p {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+.foot {
+    width: 100%;
+    height: 45px;
+    background-color: #211A1D;
+}
+.footp {
+    color: wheat;
+    align-self: flex-start;
+    font-size: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Ubuntu', sans-serif;
+    float: left;
+}
+.footp1 {
+    float: right;
+    color: wheat;
+    align-self: flex-start;
+    font-size: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footp1l {
+    text-decoration: none;
+    float: right;
+    color: wheat;
+    align-self: flex-start;
+    font-size: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bigahh {
+    width: absolute;
+    height: 700px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* these are the flex goxes 3 in row for page n2*/
+.box1 {
+    order: 1;
+    width: 33%;
+    height: 100%;
+    border-radius: 10px;
+}
+.box1top {
+    width: absolute;
+    height: 35%;
+    background-image: url(types-of-mtb-trails.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.box1bottom {
+    width: absolute;
+    height: 65%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.box2 {
+    order: 2;
+    width: 33%;
+    height: 100%;
+    border-radius: 10px;
+}
+.box2top {
+    width: absolute;
+    height: 35%;
+    background-image: url(bikeee.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.box2bottom {
+    width: absolute;
+    height: 65%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.box3 {
+    order: 2;
+    width: 33%;
+    height: 100%;
+    border-radius: 10px;
+}
+.box3top {
+    width: absolute;
+    height: 35%;
+    background-image: url(HuelvaExtrema04.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.box3bottom {
+    width: absolute;
+    height: 65%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.boxp {
+    font-family: 'Ubuntu', sans-serif;
+    color: darkgray;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.boxpalt {
+    font-family: 'Ubuntu', sans-serif;
+    color:gainsboro;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
